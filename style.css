@@ -106,3 +106,25 @@ hr {
   color: #b6b6b6;
   margin-right: 0.5rem;
 }
+
+@media print {
+  body {
+    font-size: 10pt;
+  }
+
+  .container {
+    max-width: 7in; /* Adjusted for A4 width */
+    margin: 0.5in; /* Margin around the content */
+  }
+
+  .col-sm-4 {
+    width: 50%; /* Adjust column width for better layout */
+  }
+
+  /* Hide elements not needed for print */
+  .hide-on-print {
+    display: none;
+  }
+
+  /* Other print-specific styles... */
+}
