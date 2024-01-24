@@ -60,6 +60,10 @@ ul {
   list-style: none;
 }
 
+ul .bulleted {
+  list-style:circle
+}
+
 .container {
   max-width: 93.125rem;
   margin: 0 auto;
