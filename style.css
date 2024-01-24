@@ -57,11 +57,10 @@ p {
 
 ul {
   padding-left: 0;
-  list-style: none;
 }
 
-.bulleted {
-  list-style:circle
+.noliststyle {
+  list-style:none
 }
 
 .container {
